@@ -1,0 +1,1 @@
+Bluebird = Npm.require('bluebird');

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "download-http": {
+      "version": "0.0.4",
+      "dependencies": {
+        "mkdirp": {
+          "version": "0.5.1",
+          "dependencies": {
+            "minimist": {
+              "version": "0.0.8"
+            }
+          }
+        }
+      }
+    }
+  }
+}
