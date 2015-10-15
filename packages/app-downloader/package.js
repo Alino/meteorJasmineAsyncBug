@@ -20,7 +20,7 @@ Package.onUse(function (api) {
 Package.onTest(function(api) {
     api.versionsFrom("METEOR@1.2");
     api.use([
-        'sanjo:jasmine@0.18.0',
+        'sanjo:jasmine@0.20.2',
         'coffeescript',
         "app:promise@0.0.1"
     ]);
