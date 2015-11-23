@@ -5,11 +5,11 @@ describe 'createMasterProduct', ->
       destination = "#{process.env.PWD}"
 
       passTest = (downloadPath) ->
-        expect(downloadPath).toBeDefined
+        expect(downloadPath).toBeDefined()
         done()
 
       failTest = (error) ->
-        expect(error).toBeUndefined
+        expect(error).toBeUndefined()
         done()
 
       downloadFile(url, destination)
@@ -22,7 +22,7 @@ describe 'createMasterProduct', ->
 
       passTest = (downloadPath) ->
         console.log downloadPath
-        expect(downloadPath).toBeDefined
+        expect(downloadPath).toBeDefined()
         done()
 
       failTest = (error) ->
