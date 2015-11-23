@@ -28,7 +28,7 @@ Package.onTest(function(api) {
 
     var files = [
         "download.coffee",
-        "tests/server/download.spec.coffee"
+        "tests/server/download.spec.js"
     ];
 
     api.addFiles(files, 'server');
